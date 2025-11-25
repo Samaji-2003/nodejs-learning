@@ -12,6 +12,8 @@ let add = function(a, b) {
 
 const PI = 3.14;
 
-module.exports.counter = counter;
-module.exports.add = add;
-module.exports.PI = PI;
+module.exports = {
+    counter: counter,
+    add: add,
+    PI: PI
+};
