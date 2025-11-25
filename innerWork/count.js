@@ -10,7 +10,8 @@ let add = function(a, b) {
     return `The sum of ${a} and ${b} is ${a + b}`;
 }
 
-
+const PI = 3.14;
 
 module.exports.counter = counter;
 module.exports.add = add;
+module.exports.PI = PI;

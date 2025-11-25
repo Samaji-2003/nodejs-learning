@@ -10,3 +10,4 @@ console.log(__filename);
 
 console.log(counter(['apple', 'banana', 'orange']));
 console.log(add(5, 3));
+console.log("Value of PI is: " + PI);
