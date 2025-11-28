@@ -3,8 +3,8 @@ let fs = require('fs');
 
 
 let server = http.createServer((req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    var myReadStream = fs.createReadStream(__dirname + '/read.txt', 'utf8');
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    var myReadStream = fs.createReadStream(__dirname + '/index.html', 'utf8');
     myReadStream.pipe(res);
 });
 
